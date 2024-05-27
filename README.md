@@ -84,6 +84,20 @@ of the extracted business rules compared to their non-fine-tuned versions <br>
 
 ---
 
+## Publications
+
+### A Comparative Analysis on the Effectiveness of GAN Performance (_07/2023_)
+**Abstract**: Generative Adversarial Networks (GANs) have emerged as a potent framework in the discipline of Artificial Intelligence (AI) for generating realistic synthetic data. With the increasing interest and advancements in GANs, there is obligation for a detailed comparative study to comprehend the competencies and vulnerabilities of different GAN variants. This paper sets forth a comprehensive study and comparison of various types of Generative Adversarial Networks (GANs) and their performance in generating high-quality images. GANs have gained popularity in recent years due to their capacity to generate realistic synthetic images. However, the effectiveness of GANs varies depending on the architecture and parameters employed. We have evaluated and compared the performance of different types of GANs, including DCGAN, SRGAN, and CGAN, on benchmark datasets such as CIFAR-10 and MNIST. The evaluation metrics include image quality, standard GAN loss functions and Fréchet inception distance (FID). The results demonstrate that the performance of GANs is highly dependent on the dataset and architecture used, with no single GAN type dominating across all datasets. This comparative study serves as a valuable resource for researchers and practitioners in AI, providing a foundation for selecting the appropriate GAN architecture for specific generative modeling tasks.
+
+**Publication Link**: [A Comparative Analysis on the Effectiveness of GAN Performance](https://ieeexplore.ieee.org/document/10307295)
+
+### Weather Prediction Analysis using Classifiers and Regressors in Machine Learning (_01/2023_)
+**Abstract**: Weather predictions are essential because they protect both property and human lives. Forecasts based on temperature and precipitation are critical for agriculture for merchants in the commodities markets. Humans are also closely related to weather forecast like from daily traveling to daily commuting. Utility firms use temperature projections to predict demand in the upcoming days. Machine learning is a technique that can be used to forecast many different weather patterns, including storms, hurricanes, temperature changes, cyclones, and floods. This study has compared the performance of different deep learning methods for predicting the weather and temperature, including decision tree classifier and SVR, which are rarely used for this purpose. The key variables that affect weather forecasting include air temperature, air pressure, humidity, cloud cover type, solar radiation, precipitation amount and type, and wind speed and direction. Our work focuses on implementing five different machine learning models on a classification dataset and four machine learning models on a regression dataset. Based on our experiments, the regression dataset contributes more towards accurate weather prediction using Decision Tree Regressor, which yields a regression score of 95.70%.
+  
+**Publication Link**: [Weather Prediction Analysis using Classifiers and Regressors in Machine Learning](https://ieeexplore.ieee.org/document/10061073)
+
+---
+
 ## Positions of Responsibility
 ### Class Representative
 **IIT Tirupati**, _08/2023 - Present_ <br>
@@ -119,20 +133,6 @@ addressed student concerns, contributing to a positive and collaborative learnin
 
 ---
 
-## Publications
-
-### A Comparative Analysis on the Effectiveness of GAN Performance (_07/2023_)
-**Abstract**: Generative Adversarial Networks (GANs) have emerged as a potent framework in the discipline of Artificial Intelligence (AI) for generating realistic synthetic data. With the increasing interest and advancements in GANs, there is obligation for a detailed comparative study to comprehend the competencies and vulnerabilities of different GAN variants. This paper sets forth a comprehensive study and comparison of various types of Generative Adversarial Networks (GANs) and their performance in generating high-quality images. GANs have gained popularity in recent years due to their capacity to generate realistic synthetic images. However, the effectiveness of GANs varies depending on the architecture and parameters employed. We have evaluated and compared the performance of different types of GANs, including DCGAN, SRGAN, and CGAN, on benchmark datasets such as CIFAR-10 and MNIST. The evaluation metrics include image quality, standard GAN loss functions and Fréchet inception distance (FID). The results demonstrate that the performance of GANs is highly dependent on the dataset and architecture used, with no single GAN type dominating across all datasets. This comparative study serves as a valuable resource for researchers and practitioners in AI, providing a foundation for selecting the appropriate GAN architecture for specific generative modeling tasks.
-
-**Publication Link**: [A Comparative Analysis on the Effectiveness of GAN Performance](https://ieeexplore.ieee.org/document/10307295)
-
-### Weather Prediction Analysis using Classifiers and Regressors in Machine Learning (_01/2023_)
-**Abstract**: Weather predictions are essential because they protect both property and human lives. Forecasts based on temperature and precipitation are critical for agriculture for merchants in the commodities markets. Humans are also closely related to weather forecast like from daily traveling to daily commuting. Utility firms use temperature projections to predict demand in the upcoming days. Machine learning is a technique that can be used to forecast many different weather patterns, including storms, hurricanes, temperature changes, cyclones, and floods. This study has compared the performance of different deep learning methods for predicting the weather and temperature, including decision tree classifier and SVR, which are rarely used for this purpose. The key variables that affect weather forecasting include air temperature, air pressure, humidity, cloud cover type, solar radiation, precipitation amount and type, and wind speed and direction. Our work focuses on implementing five different machine learning models on a classification dataset and four machine learning models on a regression dataset. Based on our experiments, the regression dataset contributes more towards accurate weather prediction using Decision Tree Regressor, which yields a regression score of 95.70%.
-  
-**Publication Link**: [Weather Prediction Analysis using Classifiers and Regressors in Machine Learning](https://ieeexplore.ieee.org/document/10061073)
-
-
----
 
 ## Achievements
 - **Gold Medals** (_2023_)
