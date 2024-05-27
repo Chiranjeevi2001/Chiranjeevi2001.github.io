@@ -1,8 +1,9 @@
 
+
 # Hi there👋🏼
 I'm Chiranjeevi, a passionate software developer with a profound interest in Artificial Intelligence and Deep Learning. Currently, I am pursuing a Master's degree in Computer Science and Engineering at IIT Tirupati. My enthusiasm for technology drives me to constantly learn and innovate, and I find great joy in solving complex problems.
 
-You can find me on [LinkedIn](https://www.linkedin.com/in/chiranjeevi-b-s-291812221/), [Medium](https://medium.com/@chiranjeevibs97), [Quora](https://www.quora.com/profile/Chiranjeevi-Shankar), and [Instagram](https://www.instagram.com/_chiranjeevi_bs_/).
+You can find me on [LinkedIn](https://www.linkedin.com/in/chiranjeevi-b-s-291812221/), [Medium](https://medium.com/@chiranjeevibs97), [Quora](https://www.quora.com/profile/Chiranjeevi-Shankar), [Research Gate](https://www.researchgate.net/profile/Chiranjeevi-B-S), and [Instagram](https://www.instagram.com/_chiranjeevi_bs_/).
 
 ---
 
@@ -83,20 +84,62 @@ of the extracted business rules compared to their non-fine-tuned versions <br>
 
 ---
 
-## Position of Responsibilities
-### Position 1
-**Organization Name**, [Dates]  
-- Responsibility 1
-- Responsibility 2
+## Positions of Responsibility
+### Class Representative
+**IIT Tirupati**, _08/2023 - Present_ <br>
+  
+- Currently serving as the Class Representative for my M.Tech program, acting as a bridge between students and faculty.
+- Managed communication, organized class meetings, and coordinated both academic and extracurricular activities.
+- Effectively resolved student concerns, fostering a positive and collaborative learning atmosphere.
 
-### Activity 1
-**Description:** A brief description of the activity.
+
+### Teaching Assistant for the course, CS209M & CS209L : Computer Organisation and Architecture
+**IIT Tirupati**, _08/2023 - 12/2023_
+<br>
+  
+- Instructed sophomores in the basics of computer architecture, RISC-V assembly language, and how to work with the Ripes simulator
+- Joined department meetings to discuss teaching methods.
+- Also, graded student work and exams, giving timely feedback to help them improve.
+
+### Teaching Assistant for the course, ES103M : Introduction to Programming
+**IIT Tirupati**, _01/2024 - 05/2024_ 
+<br>
+  
+- Taught the basics of C programming, Linux environment, and usage of Vim command line editor to freshmen.
+- Supervised the labs for the course, evaluated their lab assignments, quizzes and examination papers.
+
+### Class Representative
+**Dr. Ambedkar Institute of Technology**, _08/2019 - 06/2023_ 
+<br>
+  
+- Served as the Class Representative for my B.Tech program, acting as a liaison between students and faculty.
+- Facilitated communication, organized class meetings, and coordinated academic and extracurricular activities.
+- Successfully
+addressed student concerns, contributing to a positive and collaborative learning environment.
+
+---
+
+## Publications
+
+- ### A Comparative Analysis on the Effectiveness of GAN Performance (_07/2023_)
+	**Abstract**: Generative Adversarial Networks (GANs) have emerged as a potent framework in the discipline of Artificial Intelligence (AI) for generating realistic synthetic data. With the increasing interest and advancements in GANs, there is obligation for a detailed comparative study to comprehend the competencies and vulnerabilities of different GAN variants. This paper sets forth a comprehensive study and comparison of various types of Generative Adversarial Networks (GANs) and their performance in generating high-quality images. GANs have gained popularity in recent years due to their capacity to generate realistic synthetic images. However, the effectiveness of GANs varies depending on the architecture and parameters employed. We have evaluated and compared the performance of different types of GANs, including DCGAN, SRGAN, and CGAN, on benchmark datasets such as CIFAR-10 and MNIST. The evaluation metrics include image quality, standard GAN loss functions and Fréchet inception distance (FID). The results demonstrate that the performance of GANs is highly dependent on the dataset and architecture used, with no single GAN type dominating across all datasets. This comparative study serves as a valuable resource for researchers and practitioners in AI, providing a foundation for selecting the appropriate GAN architecture for specific generative modeling tasks. <br>
+ 
+**Publication Link**: [A Comparative Analysis on the Effectiveness of GAN Performance](https://ieeexplore.ieee.org/document/10307295)
+
+- ### Weather Prediction Analysis using Classifiers and Regressors in Machine Learning (_01/2023_)
+	**Abstract**: Weather predictions are essential because they protect both property and human lives. Forecasts based on temperature and precipitation are critical for agriculture for merchants in the commodities markets. Humans are also closely related to weather forecast like from daily traveling to daily commuting. Utility firms use temperature projections to predict demand in the upcoming days. Machine learning is a technique that can be used to forecast many different weather patterns, including storms, hurricanes, temperature changes, cyclones, and floods. This study has compared the performance of different deep learning methods for predicting the weather and temperature, including decision tree classifier and SVR, which are rarely used for this purpose. The key variables that affect weather forecasting include air temperature, air pressure, humidity, cloud cover type, solar radiation, precipitation amount and type, and wind speed and direction. Our work focuses on implementing five different machine learning models on a classification dataset and four machine learning models on a regression dataset. Based on our experiments, the regression dataset contributes more towards accurate weather prediction using Decision Tree Regressor, which yields a regression score of 95.70%.
+<br>
+
+**Publication Link**: [Weather Prediction Analysis using Classifiers and Regressors in Machine Learning](https://ieeexplore.ieee.org/document/10061073)
+
 
 ---
 
 ## Achievements
-- Achievement 1
-- Achievement 2
-- Achievement 3
-- Achievement 4
+- **Gold Medals** (_2023_)
+Achieved 4 gold medals for academic excellence in my B.Tech degree: Principal’s Medal for the Topper of the Institute, Best Performer of the Institute, Academic Excellence Award and M H Jayaprakash Narayan Award for Institution Topper
+- **Upraised Embark Fellow** (_2021_)
+Ranked among the top 2% of Embark Fellow candidates in the Upraised skill exam.
+- **Student of the Year** (_2018_)
+Received the Student of the Year award for excellence in academics and co-curricular activities during my intermediate/+2 studies.
 
