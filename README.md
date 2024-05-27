@@ -34,34 +34,34 @@ Relevant coursework: 18CS32 - Data Structures and Algorithms, 18CS553 - Artifici
 3. **Image Analysis**: Performs detailed analysis of images using `gemini-pro-vision` model.
 4. **Interactive Chat**: Engages in interactive chats with users, utilizing `gemini-1.5-pro`model.
 
-**Technologies Used:** Discord Developer Tool, Python, Flask, Render, Google-Generative AI  
+**Technologies Used:** Discord Developer Tool, Python, Flask, Render, Google-Generative AI, Prompt Engineering	
 **Link:** [TheReaperBot](https://github.com/Chiranjeevi2001/ichariusBrief-1)
 
-### Project 2
-**Description:** A brief description of the project.  
-**Technologies Used:** Technology 1, Technology 2, Technology 3  
-**Link:** [GitHub Repository](https://github.com/yourusername/project2)
+### COBOL RuleForge
+**Description:** Developed a framework for extraction and summarization of Business Rules from legacy COBOL codebases. Generated dataset of COBOL codes and corresponding business rules using few-shot prompting with Google’s `gemini-1.0-pro` model. Fine-tuned LLMs like Gemma, Llama2, and Mistral on the generated dataset, enhancing the accuracy and quality
+of the extracted business rules compared to their non-fine-tuned versions 
+**Technologies Used:** Python, Jupyter Notebook, Google-Generative AI, Prompt Engineering, Fine-tuning
+**Link:** [COBOL RuleForge](https://github.com/Chiranjeevi2001/cobol-ruleforge)
+
+### Susceptibility of Adversarial Attacks on Medical Image Segmentation Models
+**Description:** Led an investigative study into the vulnerability of popular medical image segmentation models to white box adversarial attacks like FGSM. Utilized advanced deep learning techniques to assess the robustness of segmentation algorithms against targeted adversarial manipulation. Expanded upon the existing framework by conducting experiments and investigating potential vulnerabilities using an alternative neural network architecture, increasing the attack success rate by almost 6%. 
+**Technologies Used:** Python, Jupyter Notebook, PyTorch, PIL, Autoencoders, UNET
+<!-- **Link:** [COBOL RuleForge](https://github.com/Chiranjeevi2001/cobol-ruleforge)-->
 
 ## Skills
-- Skill 1
-- Skill 2
-- Skill 3
-- Skill 4
+- **Programming and Scripting Languages**: C/C++, Python, Java, Linux CLI, Bash, MySQL, Javascript, HTML, CSS, 
+- **Tools and Libraries**: Numpy, Pandas, Scikit-learn, Pytorch, CUDA, OpenMP, Git & GitHub, Jupyter Notebbok, Vim Editor, VSCode, Latex, Markdown
+- **Soft Skills**: Communication, creative problem-solving, time management, team coordination, leadership, team management
 
 ## Experience
-### Job Title 1
-**Company Name**, [Dates of Employment]  
-- Responsibility 1
-- Responsibility 2
-- Responsibility 3
+### Intern
+**SGT Global Technologies India**, 03/2023 - 04/2023 
+- Acquired expertise in configuring and managing Salesforce Cloud applications.
+- Implemented innovative strategies in application design through creative inception and planning.
+- Set up diverse permission sets tailored to user roles within the organization
 
-### Job Title 2
-**Company Name**, [Dates of Employment]  
-- Responsibility 1
-- Responsibility 2
-- Responsibility 3
 
-## Position of Responsibilities and Extra-curricular Activities
+## Position of Responsibilities
 ### Position 1
 **Organization Name**, [Dates]  
 - Responsibility 1
