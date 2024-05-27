@@ -38,12 +38,7 @@ Relevant coursework: 18CS32 - Data Structures and Algorithms, 18CS553 - Artifici
 ###  The Reaper Bot
 **Description:** 
 <div style="text-align: justify">
-Developed an automated Discord bot integrated with Google's Gemini API to enhance user interactions and data analysis. The bot offers:
-
-1. **Website Summaries**: Provides summaries from public website links.
-2. **Web3 Compliance Analysis**: Analyzes websites for Web3 compliance.
-3. **Image Analysis**: Performs detailed analysis of images using `gemini-pro-vision` model.
-4. **Interactive Chat**: Engages in interactive chats with users, utilizing `gemini-1.5-pro`model.
+Developed an automated Discord bot integrated with Google's Gemini API to enhance user interactions and data analysis. The bot offers: Website Summaries, Web3 Compliance Analysis, Image Analysis, and Interactive Chat. The project utilises gemini-1.5-pro as the text model and gemini=pro-vision as the image analyser model.
 <br>
 </div>
 
