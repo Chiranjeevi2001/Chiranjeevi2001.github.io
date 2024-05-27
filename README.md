@@ -1,4 +1,4 @@
-
+![Chiranjeevi B S](images/your-photo.jpg)
 # Hi there👋🏼
 
 ## Short Bio
