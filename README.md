@@ -26,7 +26,7 @@ Grade: 9.55/10.0
 Relevant coursework: 18CS32 - Data Structures and Algorithms, 18CS553 - Artificial Intelligence, 18CS53 - Database Management System, 18CS62 - Machine Learning
 
 ## Projects
- ###  The Reaper Bot
+###  The Reaper Bot
 **Description:** Developed an automated Discord bot integrated with Google's Gemini API to enhance user interactions and data analysis. The bot offers:
 
 1. **Website Summaries**: Provides summaries from public website links.
@@ -36,18 +36,18 @@ Relevant coursework: 18CS32 - Data Structures and Algorithms, 18CS553 - Artifici
 
 **Technologies Used:** Discord Developer Tool, Python, Flask, Render, Google-Generative AI, Prompt Engineering	
 **Link:** [TheReaperBot](https://github.com/Chiranjeevi2001/ichariusBrief-1)
-
+---
 ### COBOL RuleForge
 **Description:** Developed a framework for extraction and summarization of Business Rules from legacy COBOL codebases. Generated dataset of COBOL codes and corresponding business rules using few-shot prompting with Google’s `gemini-1.0-pro` model. Fine-tuned LLMs like Gemma, Llama2, and Mistral on the generated dataset, enhancing the accuracy and quality
 of the extracted business rules compared to their non-fine-tuned versions 
 **Technologies Used:** Python, Jupyter Notebook, Google-Generative AI, Prompt Engineering, Fine-tuning
 **Link:** [COBOL RuleForge](https://github.com/Chiranjeevi2001/cobol-ruleforge)
-
+---
 ### Susceptibility of Adversarial Attacks on Medical Image Segmentation Models
 **Description:** Led an investigative study into the vulnerability of popular medical image segmentation models to white box adversarial attacks like FGSM. Utilized advanced deep learning techniques to assess the robustness of segmentation algorithms against targeted adversarial manipulation. Expanded upon the existing framework by conducting experiments and investigating potential vulnerabilities using an alternative neural network architecture, increasing the attack success rate by almost 6%. 
 **Technologies Used:** Python, Jupyter Notebook, PyTorch, PIL, Autoencoders, UNET
 <!-- **Link:** [COBOL RuleForge](https://github.com/Chiranjeevi2001/cobol-ruleforge)-->
-
+---
 ## Skills
 - **Programming and Scripting Languages**: C/C++, Python, Java, Linux CLI, Bash, MySQL, Javascript, HTML, CSS, 
 - **Tools and Libraries**: Numpy, Pandas, Scikit-learn, Pytorch, CUDA, OpenMP, Git & GitHub, Jupyter Notebbok, Vim Editor, VSCode, Latex, Markdown
