@@ -1,4 +1,4 @@
-![Chiranjeevi B S](images/your-photo.jpg)
+![Chiranjeevi B S](assets/images/CBS.png)
 # Hi there👋🏼
 
 ## Short Bio
