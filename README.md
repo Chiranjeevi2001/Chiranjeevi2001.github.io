@@ -4,6 +4,9 @@ I'm Chiranjeevi, a passionate software developer with a profound interest in Art
 
 You can find me on [LinkedIn](https://www.linkedin.com/in/chiranjeevi-b-s-291812221/), [Medium](https://medium.com/@chiranjeevibs97), [Quora](https://www.quora.com/profile/Chiranjeevi-Shankar), and [Instagram](https://www.instagram.com/_chiranjeevi_bs_/).
 
+---
+
+
 ## Areas of Interest
 - Deep Learning/Generative AI
 - Machine Learning/Artificial Intelligence
@@ -11,6 +14,9 @@ You can find me on [LinkedIn](https://www.linkedin.com/in/chiranjeevi-b-s-291812
 - Large Language Models
 - Android Development
 - Parallel Computing
+
+---
+
 
 ## Education
 - **M.Tech-Computer Science and Engineering**  
@@ -22,6 +28,9 @@ Relevant coursework: CS520L - Parallel Computing, CS519L - Machine Learning, CS5
 _Dr. Ambedkar Institute of Technology_, _2019-2023_  <br>
 Grade: 9.55/10.0 <br>
 Relevant coursework: 18CS32 - Data Structures and Algorithms, 18CS553 - Artificial Intelligence, 18CS53 - Database Management System, 18CS62 - Machine Learning
+
+---
+
 
 ## Projects
 ###  The Reaper Bot
@@ -36,9 +45,7 @@ Relevant coursework: 18CS32 - Data Structures and Algorithms, 18CS553 - Artifici
 **Technologies Used:** Discord Developer Tool, Python, Flask, Render, Google-Generative AI, Prompt Engineering	<br>
 
 **Link:** [TheReaperBot](https://github.com/Chiranjeevi2001/ichariusBrief-1)
-
----
-
+<br>
 ### COBOL RuleForge
 **Description:** Developed a framework for extraction and summarization of Business Rules from legacy COBOL codebases. Generated dataset of COBOL codes and corresponding business rules using few-shot prompting with Google’s `gemini-1.0-pro` model. Fine-tuned LLMs like Gemma, Llama2, and Mistral on the generated dataset, enhancing the accuracy and quality
 of the extracted business rules compared to their non-fine-tuned versions <br>
@@ -47,8 +54,7 @@ of the extracted business rules compared to their non-fine-tuned versions <br>
 
 **Link:** [COBOL RuleForge](https://github.com/Chiranjeevi2001/cobol-ruleforge)
 
----
-
+<br>
 ### Susceptibility of Adversarial Attacks on Medical Image Segmentation Models
 **Description:** Led an investigative study into the vulnerability of popular medical image segmentation models to white box adversarial attacks like FGSM. Utilized advanced deep learning techniques to assess the robustness of segmentation algorithms against targeted adversarial manipulation. Expanded upon the existing framework by conducting experiments and investigating potential vulnerabilities using an alternative neural network architecture, increasing the attack success rate by almost 6%. <br>
 
@@ -63,6 +69,8 @@ of the extracted business rules compared to their non-fine-tuned versions <br>
 - **Tools and Libraries**: Numpy, Pandas, Scikit-learn, Pytorch, CUDA, OpenMP, Git & GitHub, Jupyter Notebbok, Vim Editor, VSCode, Latex, Markdown
 - **Soft Skills**: Communication, creative problem-solving, time management, team coordination, leadership, team management
 
+---
+
 ## Experience
 ### Intern
 **SGT Global Technologies India**, 03/2023 - 04/2023 
@@ -70,6 +78,7 @@ of the extracted business rules compared to their non-fine-tuned versions <br>
 - Implemented innovative strategies in application design through creative inception and planning.
 - Set up diverse permission sets tailored to user roles within the organization
 
+---
 
 ## Position of Responsibilities
 ### Position 1
@@ -79,6 +88,8 @@ of the extracted business rules compared to their non-fine-tuned versions <br>
 
 ### Activity 1
 **Description:** A brief description of the activity.
+
+---
 
 ## Achievements
 - Achievement 1
