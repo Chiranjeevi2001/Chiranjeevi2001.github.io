@@ -65,9 +65,10 @@ of the extracted business rules compared to their non-fine-tuned versions <br>
 **Description:** 
 <div style="text-align: justify">
 Led an investigative study into the vulnerability of popular medical image segmentation models to white box adversarial attacks like FGSM. Utilized advanced deep learning techniques to assess the robustness of segmentation algorithms against targeted adversarial manipulation. Expanded upon the existing framework by conducting experiments and investigating potential vulnerabilities using an alternative neural network architecture, increasing the attack success rate by almost 6%. <br>
+</div>
 
 **Technologies Used:** Python, Jupyter Notebook, PyTorch, PIL, Autoencoders, UNET<br>
-</div>
+
 
 <!-- **Link:** [COBOL RuleForge](https://github.com/Chiranjeevi2001/cobol-ruleforge)-->
 
