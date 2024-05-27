@@ -39,8 +39,8 @@ Relevant coursework: 18CS32 - Data Structures and Algorithms, 18CS553 - Artifici
 **Description:** 
 <div style="text-align: justify">
 Developed an automated Discord bot integrated with Google's Gemini API to enhance user interactions and data analysis. The bot offers: Website Summaries, Web3 Compliance Analysis, Image Analysis, and Interactive Chat. The project utilises gemini-1.5-pro as the text model and gemini=pro-vision as the image analyser model.
-<br>
 </div>
+</br>
 
 **Technologies Used:** Discord Developer Tool, Python, Flask, Render, Google-Generative AI, Prompt Engineering	<br>
 
@@ -54,6 +54,7 @@ Developed an automated Discord bot integrated with Google's Gemini API to enhanc
 Developed a framework for extraction and summarization of Business Rules from legacy COBOL codebases. Generated dataset of COBOL codes and corresponding business rules using few-shot prompting with Google’s `gemini-1.0-pro` model. Fine-tuned LLMs like Gemma, Llama2, and Mistral on the generated dataset, enhancing the accuracy and quality
 of the extracted business rules compared to their non-fine-tuned versions <br>
 </div>
+</br>
 
 **Technologies Used:** Python, Jupyter Notebook, Google-Generative AI, Prompt Engineering, Fine-tuning<br>
 
@@ -66,6 +67,7 @@ of the extracted business rules compared to their non-fine-tuned versions <br>
 <div style="text-align: justify">
 Led an investigative study into the vulnerability of popular medical image segmentation models to white box adversarial attacks like FGSM. Utilized advanced deep learning techniques to assess the robustness of segmentation algorithms against targeted adversarial manipulation. Expanded upon the existing framework by conducting experiments and investigating potential vulnerabilities using an alternative neural network architecture, increasing the attack success rate by almost 6%. <br>
 </div>
+</br>
 
 **Technologies Used:** Python, Jupyter Notebook, PyTorch, PIL, Autoencoders, UNET<br>
 
