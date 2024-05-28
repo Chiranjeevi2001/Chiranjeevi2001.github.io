@@ -6,6 +6,7 @@ I'm Chiranjeevi, a passionate software developer with a profound interest in Art
 </div>
 
 <br>
+
 ### Socials:
 You can find me on [LinkedIn](https://www.linkedin.com/in/chiranjeevi-b-s-291812221/), [Medium](https://medium.com/@chiranjeevibs97), [Quora](https://www.quora.com/profile/Chiranjeevi-Shankar), [Research Gate](https://www.researchgate.net/profile/Chiranjeevi-B-S), and [Instagram](https://www.instagram.com/_chiranjeevi_bs_/).
 
