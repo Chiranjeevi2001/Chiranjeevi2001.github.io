@@ -44,7 +44,7 @@ Relevant coursework: 18CS32 - Data Structures and Algorithms, 18CS553 - Artifici
 Developed an automated Discord bot integrated with Google's Gemini API to enhance user interactions and data analysis. The bot offers: Website Summaries, Web3 Compliance Analysis, Image Analysis, and Interactive Chat. The project utilises gemini-1.5-pro as the text model and gemini=pro-vision as the image analyser model.
 </div>
 
-**Technologies Used:** Discord Developer Tool, Python, Flask, Render, Google-Generative AI, Prompt Engineering	<br>
+**Technologies Used:** Discord Developer Tool, Python, Flask, Render, Google Generative AI, Prompt Engineering	<br>
 
 **Link:** [TheReaperBot](https://github.com/Chiranjeevi2001/ichariusBrief-1)
 
@@ -57,7 +57,7 @@ Developed a framework for extraction and summarization of Business Rules from le
 of the extracted business rules compared to their non-fine-tuned versions <br>
 </div>
 
-**Technologies Used:** Python, Jupyter Notebook, Google-Generative AI, Prompt Engineering, Fine-tuning<br>
+**Technologies Used:** Python, Jupyter Notebook, Google Generative AI, Mistral AI, Google Gemma, Llama2, Prompt Engineering, Fine-tuning<br>
 
 **Link:** [COBOL RuleForge](https://github.com/Chiranjeevi2001/cobol-ruleforge)
 
