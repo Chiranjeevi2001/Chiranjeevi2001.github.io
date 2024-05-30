@@ -26,7 +26,7 @@ You can find me on [LinkedIn](https://www.linkedin.com/in/chiranjeevi-b-s-291812
 ## Education
 - **M.Tech-Computer Science and Engineering**  
 _IIT Tirupati_, _2023-2025_ <br> 
-Grade: 9.83/10.0 <br>
+Grade: 9.92/10.0 <br>
 Relevant coursework: CS520L - Parallel Computing, CS519L - Machine Learning, CS518L - Deep Learning, CS514L - Artificial Intelligence, CS519P - Intelligence Systems
 
 - **B.Tech-Computer Science and Engineering**  
