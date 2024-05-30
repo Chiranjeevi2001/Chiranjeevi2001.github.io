@@ -71,6 +71,18 @@ Led an investigative study into the vulnerability of popular medical image segme
 
 **Technologies Used:** Python, Jupyter Notebook, PyTorch, PIL, Autoencoders, UNET<br>
 
+<br>
+
+### EcoTrack
+**Description:** 
+<div style="text-align: justify">
+Developed a Trash Tracker mobile application with Android Studio in alignment with Sustainable Development Goal (SDG) #11 - sustainable cities and communities. Enabled the application to allow users to photograph litter or waste in their communities, geotag the locations, and report incidents along with the specific trash categories for improved local cleanliness and sustainability efforts. Leveraged Google Maps API to integrate real-time tracking and navigation functionalities within the application, enhancing user experience and facilitating efficient reporting of litter or waste incidents <br>
+</div>
+
+**Technologies Used:** Android Studio, Java, Firebase, Google Maps API<br>
+
+**Link:** [EcoTrack](https://github.com/Chiranjeevi2001/EcoTrack)
+
 
 <!-- **Link:** [COBOL RuleForge](https://github.com/Chiranjeevi2001/cobol-ruleforge)-->
 
