@@ -133,7 +133,7 @@ Developed a Trash Tracker mobile application with Android Studio in alignment wi
 
 
 ### Teaching Assistant for the course, CS209M & CS209L : Computer Organisation and Architecture
-**IIT Tirupati**, _08/2023 - 12/2023_
+**IIT Tirupati**, _01/2024 - 05/2024_ 
 <br>
   
 - Instructed sophomores in the basics of computer architecture, RISC-V assembly language, and how to work with the Ripes simulator
@@ -141,7 +141,7 @@ Developed a Trash Tracker mobile application with Android Studio in alignment wi
 - Also, graded student work and exams, giving timely feedback to help them improve.
 
 ### Teaching Assistant for the course, ES103M : Introduction to Programming
-**IIT Tirupati**, _01/2024 - 05/2024_ 
+**IIT Tirupati**, _08/2023 - 12/2023_
 <br>
   
 - Taught the basics of C programming, Linux environment, and usage of Vim command line editor to freshmen.
