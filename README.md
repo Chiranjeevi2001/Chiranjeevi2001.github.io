@@ -89,7 +89,7 @@ Developed a Trash Tracker mobile application with Android Studio in alignment wi
 ---
 
 ## Skills
-- **Programming and Scripting Languages**: C/C++, Python, Java, Linux CLI, Bash, MySQL, Javascript, HTML, CSS, 
+- **Programming and Scripting Languages**: C/C++, Python, Java, Linux CLI, Bash, MySQL, Javascript, HTML, CSS
 - **Tools and Libraries**: Numpy, Pandas, Scikit-learn, Pytorch, CUDA, OpenMP, Git & GitHub, Jupyter Notebbok, Vim Editor, VSCode, Latex, Markdown
 - **Soft Skills**: Communication, creative problem-solving, time management, team coordination, leadership, team management
 
