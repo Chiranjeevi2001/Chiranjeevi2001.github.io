@@ -8,7 +8,15 @@ I'm Chiranjeevi, a passionate software developer with a profound interest in Art
 <br>
 
 ### Socials:
-You can find me on [LinkedIn](https://www.linkedin.com/in/chiranjeevi-b-s-291812221/), [Medium](https://medium.com/@chiranjeevibs97), [Quora](https://www.quora.com/profile/Chiranjeevi-Shankar), [Research Gate](https://www.researchgate.net/profile/Chiranjeevi-B-S), [Instagram](https://www.instagram.com/_chiranjeevi_bs_/), [Leetcode](https://leetcode.com/u/chiranjeevibs97/), [Credly](https://www.credly.com/users/chiranjeevi-b-s-cs23m104/badges), and [CodeWars](https://www.codewars.com/users/Chiranjeevi2001).
+You can find me on:
+1. [LinkedIn](https://www.linkedin.com/in/chiranjeevi-b-s-291812221/)
+2. [Medium](https://medium.com/@chiranjeevibs97)
+3. [Quora](https://www.quora.com/profile/Chiranjeevi-Shankar)
+4. [Research Gate](https://www.researchgate.net/profile/Chiranjeevi-B-S)
+5. [Instagram](https://www.instagram.com/_chiranjeevi_bs_/)
+6. [Leetcode](https://leetcode.com/u/chiranjeevibs97/)
+7. [Credly](https://www.credly.com/users/chiranjeevi-b-s-cs23m104/badges)
+8. [CodeWars](https://www.codewars.com/users/Chiranjeevi2001).
 
 ---
 
