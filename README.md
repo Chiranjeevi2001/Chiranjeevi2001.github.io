@@ -61,7 +61,7 @@ Developed an automated Discord bot integrated with Google's Gemini API to enhanc
 ### COBOL RuleForge
 **Description:** 
 <div style="text-align: justify">
-Developed a framework for extraction and summarization of Business Rules from legacy COBOL codebases. Generated dataset of COBOL codes and corresponding business rules using few-shot prompting with Google’s `gemini-1.0-pro` model. Fine-tuned LLMs like Gemma, Llama2, and Mistral on the generated dataset, enhancing the accuracy and quality
+Developed a framework for extraction and summarization of Business Rules from legacy COBOL codebases. Generated dataset of COBOL codes and corresponding business rules using few-shot prompting with Google’s gemini-1.0-pro model. Fine-tuned LLMs like Gemma, Llama2, and Mistral on the generated dataset, enhancing the accuracy and quality
 of the extracted business rules compared to their non-fine-tuned versions <br>
 </div>
 
