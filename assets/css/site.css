@@ -715,7 +715,7 @@ button:hover {
 
 
 
-.intro-copy {
+.intro-copy, .scroll-cue {
   transform: translate3d(0, calc(var(--hero-lag, 0px) * .65), 0);
   opacity: calc(1 - .7 * var(--hero-progress, 0));
   filter: blur(calc(10px * var(--hero-progress, 0)));
@@ -735,7 +735,7 @@ html.lenis.lenis-smooth {
   pointer-events: none;
 }
 @media (prefers-reduced-motion: reduce) {
-  .intro-copy, .portrait-card {
+  .intro-copy, .scroll-cue, .portrait-card {
     transform: none;
     opacity: 1;
     filter: none;
@@ -784,4 +784,12 @@ html.lenis.lenis-smooth {
 
 @media (prefers-reduced-motion: reduce) {
   .project-grid .project-art { transform: none; }
+}
+
+@media (max-width: 700px) {
+  .intro-copy, .scroll-cue, .portrait-card {
+    transform: none;
+    opacity: 1;
+    filter: none;
+  }
 }
