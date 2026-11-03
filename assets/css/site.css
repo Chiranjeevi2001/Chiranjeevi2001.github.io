@@ -760,7 +760,8 @@ html.lenis.lenis-smooth {
   filter: brightness(0) invert(1);
 }
 
-.project-grid .project-art-frame { aspect-ratio: 4 / 3; }
+.project-grid .project-art-frame { aspect-ratio: 1; }
+.project-grid .project-art { object-fit: cover; transform: translateY(var(--art-shift, 0px)) scale(1.14); }
 .project-grid h3 { font-size: 36px; min-height: 80px; }
 .project-grid .project-category { margin-bottom: 14px; }
 .project-grid .project-copy > p:not(.project-category):not(.result) {
@@ -779,4 +780,8 @@ html.lenis.lenis-smooth {
   .project-grid { grid-template-columns: minmax(0, 1fr); }
   .project-grid h3 { min-height: 0; }
   .project-grid .project-copy > p:not(.project-category):not(.result) { min-height: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-grid .project-art { transform: none; }
 }

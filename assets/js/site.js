@@ -65,7 +65,10 @@ function renderScroll() {
   for (const frame of projectFrames) {
     const bounds = frame.getBoundingClientRect();
     const position = clamp((bounds.top + bounds.height / 2 - viewport / 2) / (viewport / 2 + bounds.height / 2), -1, 1);
-    frame.style.setProperty('--art-shift', `${reduced ? 0 : -position * bounds.height * 0.1}px`);
+    const isCard = Boolean(frame.closest('.project-grid'));
+    const travel = bounds.height * (isCard ? 0.065 : 0.1);
+    const movement = isCard ? clamp(position * 2.5, -1, 1) : position;
+    frame.style.setProperty('--art-shift', `${reduced ? 0 : -movement * travel}px`);
   }
 }
 
