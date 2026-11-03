@@ -309,31 +309,20 @@ main>section {
   color:var(--muted);
   margin-bottom:70px;
 }
-.project-panel {
-  contain: layout;
-  min-width: 0;
+.project-grid {
   display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 100%;
-  gap: 32px;
-  align-items: start;
-  overflow-x: auto;
-  overscroll-behavior-x: contain;
-  scroll-snap-type: x mandatory;
-  scrollbar-color: var(--link) var(--surface);
-  scrollbar-width: none;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
 }
 .project {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 48px;
-  align-items: start;
+  display: flex;
+  flex-direction: column;
   min-width: 0;
-  padding: 36px 60px 60px;
-  scroll-snap-align: start;
+  background: var(--surface);
+  border: 1px solid var(--line);
 }
-.project-copy { grid-column: 1; grid-row: 1; }
-.project-visual { grid-column: 2; grid-row: 1; }
+.project-visual { width: 100%; }
+.project-copy { padding: 24px; }
 .project-category {
   color:var(--link);
   font-size:14px;
@@ -771,94 +760,23 @@ html.lenis.lenis-smooth {
   filter: brightness(0) invert(1);
 }
 
-.project-panel:focus-visible {
-  outline: 2px solid var(--link);
-  outline-offset: 8px;
+.project-grid .project-art-frame { aspect-ratio: 4 / 3; }
+.project-grid h3 { font-size: 36px; min-height: 80px; }
+.project-grid .project-category { margin-bottom: 14px; }
+.project-grid .project-copy > p:not(.project-category):not(.result) {
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 96px;
+  margin-top: 14px;
 }
-.project-carousel {
-  position: relative;
-  background: var(--surface);
-}
-.project-panel::-webkit-scrollbar { display: none; }
-.project-controls { display: contents; }
-.project-controls > span {
-  position: absolute;
-  z-index: 2;
-  bottom: 14px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: var(--muted);
-  font-size: 13px;
-}
-.project-controls button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 2;
-  display: grid;
-  place-items: center;
-  width: 44px;
-  height: 64px;
-  padding: 0;
-  border: 0;
-  background: transparent;
-  color: var(--link);
-}
-#project-prev { left: 4px; }
-#project-next { right: 4px; }
-.project-controls button:hover:not(:disabled) {
-  color: var(--ink);
-  background: #c5ad7310;
-}
-.project-controls button:disabled {
-  opacity: .18;
-  cursor: default;
-}
-@media (max-width: 700px) {
-  .project { grid-template-columns: minmax(0, 1fr); gap: 28px; padding: 0 0 48px; }
-  .project-visual { grid-column: 1; grid-row: 1; }
-  .project-copy { grid-column: 1; grid-row: 2; padding-inline: 24px; }
-  .project-controls button {
-    top: calc((100vw - 40px) / 2);
-    height: 44px;
-    border-radius: 50%;
-    background: #171715c9;
-    backdrop-filter: blur(8px);
-  }
-  #project-prev { left: 8px; }
-  #project-next { right: 8px; }
-}
-
-.page-turn {
-  position: absolute;
-  inset: 0;
-  z-index: 3;
-  overflow: clip;
-  pointer-events: none;
-}
-.papyrus-leaf,
-.papyrus-front {
-  position: absolute;
-  inset: 0;
-  margin: 0;
-}
-.papyrus-front {
-  background: var(--surface);
-  will-change: clip-path;
-}
-.papyrus-fold {
-  position: absolute;
-  inset-block: -10%;
-  width: 8%;
-  left: 0;
-  transform-origin: top left;
-  background:
-    repeating-linear-gradient(0deg, #ac8d5833 0 1px, transparent 1px 4px),
-    linear-gradient(90deg, #5b492a, #c5ad73 35%, #e1cf9b 60%, #88703f);
-  box-shadow: 12px 0 30px #0006;
-  will-change: transform, opacity;
-}
-.page-backward .papyrus-fold { box-shadow: -12px 0 30px #0006; }
-@media (prefers-reduced-motion: reduce) {
-  .page-turn { display: none; }
+.project-grid .result { margin: 26px 0; gap: 14px; min-height: 62px; }
+.project-grid .result > strong { font-size: 64px; }
+.project-grid .result > strong > span { font-size: 32px; }
+.project-grid .result > span { font-size: 13px; }
+.project-grid .engineering-notes > summary { font-size: 14px; }
+.project-grid .notes { padding: 14px; font-size: 14px; }
+@media (max-width: 800px) {
+  .project-grid { grid-template-columns: minmax(0, 1fr); }
+  .project-grid h3 { min-height: 0; }
+  .project-grid .project-copy > p:not(.project-category):not(.result) { min-height: 0; }
 }
