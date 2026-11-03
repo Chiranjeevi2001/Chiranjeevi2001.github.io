@@ -43,3 +43,53 @@ officeToggle.addEventListener('click', () => {
 
 motionPreference.addEventListener('change', updateMotionPreference);
 updateMotionPreference();
+
+const navigation = document.querySelector('.site-nav');
+const hero = document.querySelector('.intro');
+const projectFrames = [...document.querySelectorAll('.project-art-frame')];
+const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
+let scrollFrame = null;
+let smoothScroll = null;
+
+function renderScroll() {
+  scrollFrame = null;
+  const scroll = window.scrollY;
+  const viewport = window.innerHeight;
+  const reduced = motionPreference.matches;
+  navigation.classList.toggle('compact', scroll > 60);
+
+  const progress = reduced ? 0 : clamp(scroll / hero.offsetHeight, 0, 1) ** 2;
+  hero.style.setProperty('--hero-lag', `${reduced ? 0 : clamp(scroll * 0.35, 0, viewport)}px`);
+  hero.style.setProperty('--hero-progress', progress);
+
+  for (const frame of projectFrames) {
+    const bounds = frame.getBoundingClientRect();
+    const position = clamp((bounds.top + bounds.height / 2 - viewport / 2) / (viewport / 2 + bounds.height / 2), -1, 1);
+    frame.style.setProperty('--art-shift', `${reduced ? 0 : -position * bounds.height * 0.1}px`);
+  }
+}
+
+function requestScrollRender() {
+  if (scrollFrame === null) scrollFrame = requestAnimationFrame(renderScroll);
+}
+
+function configureScrolling() {
+  smoothScroll?.destroy();
+  smoothScroll = null;
+  if (!motionPreference.matches && typeof Lenis !== 'undefined') {
+    smoothScroll = new Lenis({
+      lerp: 0.09,
+      autoRaf: true,
+      anchors: { offset: -90 },
+    });
+    smoothScroll.on('scroll', requestScrollRender);
+  }
+  requestScrollRender();
+}
+
+window.addEventListener('scroll', requestScrollRender, { passive: true });
+window.addEventListener('resize', requestScrollRender);
+motionPreference.addEventListener('change', configureScrolling);
+document.fonts.ready.then(requestScrollRender);
+configureScrolling();
+renderScroll();

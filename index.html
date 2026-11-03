@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Chiranjeevi B S is an Applications Software Engineer at Oracle who builds practical AI tools for production support, testing, and legacy systems.">
-    <meta name="color-scheme" content="light dark">
-    <meta name="theme-color" content="#f4f6fa" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#151b25" media="(prefers-color-scheme: dark)">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#171715">
     <link rel="canonical" href="https://chiranjeevi2001.github.io/">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="assets/css/site.css">
-    <script src="assets/js/site.js" defer></script>
+    <link rel="stylesheet" href="assets/css/site.css?v=motion-2">
+    <script src="assets/js/vendor/lenis.min.js" defer></script>
+    <script src="assets/js/site.js?v=motion-2" defer></script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="Chiranjeevi B S — Applications Software Engineer">
     <meta property="og:description" content="Practical AI tools for production support, testing, and legacy systems.">
@@ -40,47 +40,45 @@
     <div class="notebook" id="top">
       <nav class="site-nav" aria-label="Main navigation">
         <a class="wordmark" href="#top" aria-label="Chiranjeevi B S, home">cbs<span aria-hidden="true">.</span></a>
-        <div><a href="#work">Work</a><a href="#research">Research</a><a href="#contact">Contact</a></div>
+        <span class="nav-name">Chiranjeevi B S</span><div><a href="#work">Work</a><a href="#research">Research</a><a href="#contact">Contact</a></div>
       </nav>
       <header class="intro">
         <div class="intro-copy">
         <div class="identity">
           <div>
             <p class="role-label">Software engineer at Oracle</p>
-            <h1>Chiranjeevi <span class="name-initials">B S</span></h1>
+            <p class="hero-name">Chiranjeevi B S</p><h1>Making complex<br>systems<br>make sense.</h1>
           </div>
         </div>
         <p>I build AI tools and production software that make it easier to investigate issues, test systems, and understand old code.</p>
-        <p>I like turning “something’s broken” into a clear next step. Usually, that starts with logs, a test case, and a little curiosity.</p>
+
         <ul class="inline-links" aria-label="Find me online">
-          <li><a href="https://github.com/Chiranjeevi2001" target="_blank" rel="noreferrer">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/chiranjeevi-b-s-291812221/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-          <li><a href="mailto:chiranjeevibs2001career@gmail.com">Email me</a></li>
+          <li><a href="https://github.com/Chiranjeevi2001" target="_blank" rel="noreferrer" aria-label="GitHub" title="GitHub"><img class="social-icon" src="assets/icons/github.svg" width="24" height="24" alt=""></a></li>
+          <li><a href="https://www.linkedin.com/in/chiranjeevi-b-s-291812221/" target="_blank" rel="noreferrer" aria-label="LinkedIn" title="LinkedIn"><img class="social-icon" src="assets/icons/linkedin.svg" width="24" height="24" alt=""></a></li>
+          <li><a href="mailto:chiranjeevibs2001career@gmail.com" aria-label="Email me" title="Email me"><img class="social-icon" src="assets/icons/email.svg" width="24" height="24" alt=""></a></li>
         </ul>
         </div>
         <figure class="portrait-card">
+          <div class="orbital" aria-hidden="true"><i></i><i></i><i></i><span></span></div>
           <div class="portrait-grid">
-            <img class="portrait" src="assets/images/image.png" width="475" height="450" alt="Chiranjeevi B S wearing an orange shirt and glasses">
+            <img class="portrait" src="assets/images/image.png" width="475" height="450" alt="Portrait of Chiranjeevi B S">
             <span class="portrait-corner" aria-hidden="true"></span>
           </div>
           <figcaption><span class="location-pin" aria-hidden="true"></span>Bengaluru, India</figcaption>
         </figure>
+      <a class="scroll-cue" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
       </header>
 
       <main id="main-content" tabindex="-1">
         <section id="work" aria-labelledby="work-title">
-          <h2 id="work-title">Selected work</h2>
-          <p class="section-note">A few things I’ve built, and what went into them.</p>
+          <h2 id="work-title">Built to be useful.</h2>
+          <p class="section-note">Selected work in AI, production systems, and legacy code.</p>
           <article class="project project-featured">
+            <div class="project-copy">
             <p class="project-category">Production intelligence</p>
             <h3>RCA Agent <span class="context">at Oracle</span></h3>
             <p>An AI system that brings logs, database context, and code together to investigate production issues.</p>
             <p class="result"><strong>70<span>%</span></strong><span>less investigation time</span></p>
-            <div class="evidence-flow" role="img" aria-label="OCI logs, SQL workflows, and code intelligence brought together as evidence">
-              <div class="evidence-sources"><span>OCI logs</span><span>SQL workflows</span><span>Code intelligence</span></div>
-              <span class="evidence-connector" aria-hidden="true"></span>
-              <span class="evidence-output">Evidence</span>
-            </div>
             <details class="engineering-notes">
               <summary>Engineering notes<span class="visually-hidden"> for RCA Agent</span></summary>
               <dl class="notes">
@@ -89,8 +87,16 @@
                 <div><dt>Result</dt><dd>Investigation time dropped by 70%.</dd></div>
               </dl>
             </details>
+
+            </div>
+            <figure class="project-visual" data-art="rca-art">
+              <div class="project-art-frame">
+                <img class="project-art" src="assets/images/rca-art.webp" width="1000" height="1000" loading="lazy" decoding="async" alt="Engraved eye and astronomical lens focusing scattered rays into a single point.">
+              </div>
+            </figure>
           </article>
           <article class="project">
+            <div class="project-copy">
             <p class="project-category">Quality engineering</p>
             <h3>QATestSuite <span class="context">at Oracle</span></h3>
             <p>An AI-assisted platform for finding test scenarios, drafting steps, and running them.</p>
@@ -103,8 +109,16 @@
                 <div><dt>Result</dt><dd>Manual QA effort dropped by 80%, with improved regression, edge-case, and negative-path coverage.</dd></div>
               </dl>
             </details>
+
+            </div>
+            <figure class="project-visual" data-art="qa-art">
+              <div class="project-art-frame">
+                <img class="project-art" src="assets/images/qa-art.webp" width="1000" height="1000" loading="lazy" decoding="async" alt="Engraved hand arranging branching threads into a precise lattice.">
+              </div>
+            </figure>
           </article>
           <article class="project">
+            <div class="project-copy">
             <p class="project-category">Legacy modernization</p>
             <h3>COBOL RuleForge</h3>
             <p>A Python framework for finding and explaining the business rules hidden in legacy COBOL.</p>
@@ -118,6 +132,13 @@
                 <div><dt>Result</dt><dd>Extraction accuracy improved by 32% over baseline models.</dd></div>
               </dl>
             </details>
+
+            </div>
+            <figure class="project-visual" data-art="cobol-art">
+              <div class="project-art-frame">
+                <img class="project-art" src="assets/images/cobol-art.webp" width="1000" height="1000" loading="lazy" decoding="async" alt="Antique manuscript transforming into a rising architectural lattice.">
+              </div>
+            </figure>
           </article>
         </section>
 
@@ -215,10 +236,10 @@
           <p id="office-status" class="meta" role="status"></p>
         </div>
         <ul class="inline-links" aria-label="Contact and profiles">
-          <li><a href="mailto:chiranjeevibs2001career@gmail.com">Email me</a></li>
-          <li><a href="https://github.com/Chiranjeevi2001" target="_blank" rel="noreferrer">GitHub</a></li>
-          <li><a href="https://www.linkedin.com/in/chiranjeevi-b-s-291812221/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-          <li><a href="https://leetcode.com/u/chiranjeevibs97/" target="_blank" rel="noreferrer">LeetCode</a></li>
+          <li><a href="mailto:chiranjeevibs2001career@gmail.com" aria-label="Email me" title="Email me"><img class="social-icon" src="assets/icons/email.svg" width="24" height="24" alt=""></a></li>
+          <li><a href="https://github.com/Chiranjeevi2001" target="_blank" rel="noreferrer" aria-label="GitHub" title="GitHub"><img class="social-icon" src="assets/icons/github.svg" width="24" height="24" alt=""></a></li>
+          <li><a href="https://www.linkedin.com/in/chiranjeevi-b-s-291812221/" target="_blank" rel="noreferrer" aria-label="LinkedIn" title="LinkedIn"><img class="social-icon" src="assets/icons/linkedin.svg" width="24" height="24" alt=""></a></li>
+          <li><a href="https://leetcode.com/u/chiranjeevibs97/" target="_blank" rel="noreferrer" aria-label="LeetCode" title="LeetCode"><img class="social-icon" src="assets/icons/leetcode.svg" width="24" height="24" alt=""></a></li>
         </ul>
       </footer>
     </div>
